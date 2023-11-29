@@ -11,7 +11,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@formkit/auto-animate',
     'vue3-carousel-nuxt',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    'nuxt-icon',
+    '@nuxtjs/device'
   ],
   googleFonts: {
     families: {

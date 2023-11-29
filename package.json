@@ -12,9 +12,11 @@
   "devDependencies": {
     "@formkit/auto-animate": "latest",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/device": "latest",
     "@nuxtjs/google-fonts": "latest",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2",
+    "nuxt-icon": "latest",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5",
     "vue3-carousel-nuxt": "latest"
