@@ -1,21 +1,19 @@
 <template>
-  <div>
-    <Carousel :autoplay="5000" :wrap-around="true">
-      <Slide v-for="item in array" :key="item">
-        <div class="w-full text-white py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-32 bg-repeat bg-fixed h-fit md:h-[640px]" :style="`background-image: url('${item.imgLink}')`">
-          <div class="text-left w-fit space-y-8 max-w-screen-sm bg-[rgba(0,0,0,.6)] px-4 py-8 leading-8">
-            <p class="text-base font-medium uppercase">{{ item.subtitle }}</p>
-            <h2 class="text-xl lg:text-5xl font-bold">{{ item.heading }}</h2>
-            <p>{{ item.description }}</p>
-            <NuxtLink to="/about" class="block w-fit bg-gradient-to-r from-primary-700 to-primary-900 rounded-none px-4 sm:px-8 py-4 mr-4">Learn more</NuxtLink>
-          </div>
+  <Carousel :autoplay="5000" :wrap-around="true">
+    <Slide v-for="item in array" :key="item">
+      <div class="w-full text-white py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-32 bg-repeat bg-fixed h-fit md:h-[640px]" :style="`background-image: url('${item.imgLink}')`">
+        <div class="text-left w-fit space-y-8 max-w-screen-sm bg-[rgba(0,0,0,.6)] px-4 py-8 leading-8">
+          <p class="text-base font-medium uppercase">{{ item.subtitle }}</p>
+          <h2 class="text-xl lg:text-5xl font-bold">{{ item.heading }}</h2>
+          <p>{{ item.description }}</p>
+          <NuxtLink to="/about" class="block w-fit bg-gradient-to-r from-primary-700 to-primary-900 rounded-none px-4 sm:px-8 py-4 mr-4">Learn more</NuxtLink>
         </div>
-      </Slide>
-      <template #addons>
-        <Navigation />
-      </template>
-    </Carousel>
-  </div>
+      </div>
+    </Slide>
+    <template #addons>
+      <Navigation />
+    </template>
+  </Carousel>
 </template>
 
 <script setup>
