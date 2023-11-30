@@ -28,6 +28,6 @@ useHead({
 
 <template>
   <div>
-    Home page
+    <HomeHero />
   </div>
 </template>

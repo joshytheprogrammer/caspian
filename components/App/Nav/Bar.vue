@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white px-8 md:px-12 lg:px-28 py-8 text-neutral-800 flex items-center justify-between">
+  <div class="w-full bg-white px-8 md:px-12 lg:px-28 py-8  text-neutral-800 flex items-center justify-between">
     <div class="w-fit" >
       <NuxtLink class="flex items-center bg-white cursor-pointer text-primary-700" @click.prevent="$router.push('/')" >
         <!-- <img class="w-36 pr-4" src="/LOGO.png" alt="Caspian Logo"> -->

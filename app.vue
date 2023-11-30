@@ -3,7 +3,9 @@
     <AppNavStrip />
     <AppNavBar v-show="$device.isDesktopOrTablet" />
     <AppNavMBar v-show="$device.isMobile" />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage class="mt-24 md:mt-0" />
+    </NuxtLayout>
   </div>
 </template>
 
