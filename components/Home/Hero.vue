@@ -1,5 +1,5 @@
 <template>
-  <Carousel :autoplay="5000" :wrap-around="true">
+  <Carousel  :wrap-around="true">
     <Slide v-for="item in array" :key="item">
       <div class="w-full text-white py-8 md:py-16 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-32 bg-repeat bg-fixed h-[580px] lg:h-[640px] flex flex-col items-start justify-center" :style="`background-image: url('${item.imgLink}')`">
         <div class="text-left w-fit space-y-8 max-w-screen-sm bg-[rgba(0,0,0,.6)] px-4 py-8 leading-7"  v-motion-slide-left >

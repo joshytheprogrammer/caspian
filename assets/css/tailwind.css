@@ -6,6 +6,10 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+::selection {
+  background-color: #abd581;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.4s;
