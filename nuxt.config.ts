@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: 'blur', mode: 'out-in' }
+  },
   devtools: {
     enabled: true,
 
@@ -13,7 +16,8 @@ export default defineNuxtConfig({
     'vue3-carousel-nuxt',
     '@nuxtjs/google-fonts',
     'nuxt-icon',
-    '@nuxtjs/device'
+    '@nuxtjs/device',
+    '@vueuse/motion/nuxt'
   ],
   googleFonts: {
     families: {
@@ -22,5 +26,8 @@ export default defineNuxtConfig({
         ital: [100, 200, 300, 400, 500, 600, 700, 800, 900]
       },
     }
+  },
+  device: {
+    refreshOnResize: true
   }
 })
