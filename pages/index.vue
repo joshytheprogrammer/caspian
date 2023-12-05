@@ -30,5 +30,6 @@ useHead({
   <div>
     <HomeHero />
     <HomeServices />
+    <HomeServiceSl />
   </div>
 </template>
