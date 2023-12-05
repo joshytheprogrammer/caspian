@@ -9,6 +9,7 @@ html, body {
 
 ::selection {
   background-color: #abd581;
+  color: #112b40;
 }
 
 .fade-enter-active,

@@ -1,6 +1,6 @@
 <template>
   <div class="test inline-flex">
-    <count-up :autoplay="true" :end-val="end.num" :options="{ duration: 8, useEasing: true, enableScrollSpy:false }" ></count-up>%
+    <count-up :autoplay="true" :end-val="end.num" :options="{ duration: 8, useEasing: true, enableScrollSpy:true }" ></count-up>%
   </div>
 </template>
 
