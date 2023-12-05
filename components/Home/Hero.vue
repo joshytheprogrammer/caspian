@@ -58,14 +58,14 @@ const array = [
 </script>
 
 <style >
-.carousel__prev,
+/* .carousel__prev,
 .carousel__next {
-  /* color: white; */
-  /* box-sizing: content-box; */
-  /* border: 5px solid white; */
+  color: white;
+  box-sizing: content-box;
+  border: 5px solid white;
 
-  /* &:hover {
+  &:hover {
     color: white;
-  } */
-}
+  }
+} */
 </style>
