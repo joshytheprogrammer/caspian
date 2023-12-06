@@ -32,5 +32,6 @@ useHead({
     <HomeServices />
     <HomeServiceSl />
     <HomeAbout />
+    <HomeSlider />
   </div>
 </template>
