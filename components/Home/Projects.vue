@@ -2,7 +2,7 @@
   <div class=" py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-16">
     <div class="w-full flex justify-end">
       <NuxtLink class="inline-flex space-x-4 items-center text-lg font-semibold cursor-pointer underline-offset-[16px] hover:underline text-primary-950" to="/projects">
-        <span>Lastest Projects</span>
+        <span>Latest Projects</span>
         <Icon name="tabler:arrow-up-right" size="1.5em" />
       </NuxtLink>
     </div>
