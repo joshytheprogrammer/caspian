@@ -5,7 +5,7 @@
         <span>All Services</span>
         <Icon name="tabler:arrow-up-right" size="1.5em" />
       </NuxtLink>
-      <h2 class="text-8xl font-black text-primary-950">
+      <h2 class="text-4xl md:text-6xl lg:text-8xl font-black text-primary-950">
         Caspian <br>
         Capabilities
       </h2>

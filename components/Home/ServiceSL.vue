@@ -5,7 +5,7 @@
         <Slide v-for="item in slide" :key="item">
           <div class="carousel__item text-white">
             <div class="">
-              <span class="brand">{{ item }}</span>
+              <span class="brand text-xl md:text-4xl lg:text-8xl">{{ item }}</span>
             </div>
           </div>
         </Slide>
@@ -22,7 +22,7 @@ const slide = ref(['Brand 1', 'Brand 2', 'Brand 3', 'Brand 4', 'Brand 5', 'Brand
 .brand {
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: #cce7af;
-  font-size: 86px;
   color: transparent;
 }
+
 </style>
