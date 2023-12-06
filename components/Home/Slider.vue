@@ -2,9 +2,7 @@
   <div class="py-8 lg:py-16">
     <Carousel :items-to-show="1.9" :autoplay="3000" :wrap-around="true">
       <Slide v-for="item in imagesInSlide" :key="item">
-        <div >
-          <img class="w-[712px] max-h-80 !mx-8" :src="item" alt="Slide">
-        </div>
+        <img class="w-[714px] h-[352px] mx-8 transition-transform transform-gpu hover:scale-105 hover:brightness-75 duration-300 ease-in-out brightness-90" :src="item" alt="Slide">
       </Slide>
       <template #addons>
         <Navigation />
