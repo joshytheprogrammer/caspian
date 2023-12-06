@@ -3,7 +3,7 @@
     <Carousel :items-to-show="1.9" :autoplay="3000" :wrap-around="true">
       <Slide v-for="item in imagesInSlide" :key="item">
         <div >
-          <img style="width: 732.87px; height: 359.04px; object-fit: cover;" class="px-8" :src="item" alt="Slide">
+          <img class="w-[712px] max-h-80 !mx-8" :src="item" alt="Slide">
         </div>
       </Slide>
       <template #addons>
@@ -23,10 +23,3 @@ const imagesInSlide = ref([
 ]);
 </script>
 
-<style  scoped>
-.carousel__prev,
-.carousel__next {
-  color: white;
-  
-}
-</style>
