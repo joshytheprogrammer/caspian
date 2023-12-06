@@ -30,9 +30,10 @@ useHead({
   <div>
     <HomeHero />
     <HomeServices />
-    <HomeServiceSl />
+    <HomeBrands />
     <HomeAbout />
     <HomeSlider />
     <HomeProjects />
+    <HomeContact />
   </div>
 </template>

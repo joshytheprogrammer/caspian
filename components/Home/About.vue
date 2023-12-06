@@ -15,7 +15,7 @@
     <h3 class="text-xl md:text-2xl lg:text-3xl font-normal tracking-wider text-primary-900">We Bridge Distances, We Deliver Dreams</h3>
     <div class="block md:flex justify-between py-12">
       <div class="block lg:flex lg:space-x-8">
-        <div class="flex flex-col underline space-y-2 text-lg font-semibold cursor-pointer text-primary-800 ">
+        <div class="flex flex-col underline space-y-4 text-lg font-semibold cursor-pointer text-primary-800 ">
           <span @click="changeShowing(1)" :class="showing != 1 ? 'opacity-40 hover:opacity-100': ''">History</span>
           <span @click="changeShowing(2)" :class="showing != 2 ? 'opacity-40 hover:opacity-100': ''">Mission</span>
           <span @click="changeShowing(3)" :class="showing != 3 ? 'opacity-40 hover:opacity-100': ''">Vision</span>
