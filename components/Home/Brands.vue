@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url('https://res.cloudinary.com/dsgvwxygr/image/upload/v1701787429/caspian/large-cargo-ship-with-containers-port-generative-ai_saksit.jpg')] bg-top bg-cover bg-primary-950 bg-no-repeat bg-fixed h-[430px] flex flex-col justify-end w-full">
+  <div class="bg-[url('https://res.cloudinary.com/dsgvwxygr/image/upload/v1701787429/caspian/large-cargo-ship-with-containers-port-generative-ai_saksit.jpg')] bg-top bg-cover bg-primary-950 bg-no-repeat bg-fixed h-[240px] md:h-[430px] flex flex-col justify-end w-full">
     <div class="bg-[rgba(0,0,0,.6)]">
       <Carousel :items-to-show="3.5" :autoplay="1000" :wrap-around="true">
         <Slide v-for="item in slide" :key="item">
