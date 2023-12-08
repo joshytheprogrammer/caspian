@@ -2,6 +2,7 @@
   <div>
     <ContactHero />
     <ContactForm />
+    <ContactMaps />
   </div>
 </template>
 
