@@ -1,6 +1,7 @@
 <template>
   <div>
     <ProjectsHero />
+    <ProjectsGrid />
   </div>
 </template>
 
