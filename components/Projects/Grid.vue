@@ -2,11 +2,11 @@
   <div class="block mx-auto lg:grid lg:grid-cols-3 md:grid-cols-2 gap-6 px-4 sm:px-8 md:px-12 lg:px-28 py-24 transition-all">
     <figure class="w-full h-fit shadow-md mb-6 inline-block border border-solid border-gray-400 rounded-md" v-for="item in grid" :key="item.id" ref="projects">
       <img class="w-full rounded-t-md" :src="item.imgLink" :alt="'We delivered ' + item.title">
-      <div class="flex justify-between items-center px-2">
+      <div class="flex justify-between items-center px-2" @click.prevent="changeID(item.id)">
         <h3 class="py-4 text-xl font-medium ">{{ item.title }}</h3>
         <div class="w-fit h-fit cursor-pointer">
-          <Icon v-show="showingID != item.id" name="material-symbols:keyboard-arrow-down" size="1.4em"  @click.prevent="changeID(item.id)"/>
-          <Icon v-show="showingID === item.id" name="material-symbols:keyboard-arrow-up" size="1.4em" @click.prevent="changeID(item.id)"/>
+          <Icon v-show="showingID != item.id"  name="material-symbols:keyboard-arrow-down" size="1.4em" />
+          <Icon v-show="showingID === item.id" name="material-symbols:keyboard-arrow-up" size="1.4em" />
         </div> 
       </div>
       <transition-group name="fade" mode="out-in">
