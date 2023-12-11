@@ -1,6 +1,7 @@
 <template>
   <div>
-
+    <AboutHero />
+    <HomeContact />
   </div>
 </template>
 
