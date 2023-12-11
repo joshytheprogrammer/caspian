@@ -4,7 +4,10 @@
       <img class="w-full rounded-t-md" :src="item.imgLink" :alt="'We delivered ' + item.title">
       <div class="flex justify-between items-center px-2">
         <h3 class="py-4 text-xl font-medium ">{{ item.title }}</h3>
-        <NuxtLink class="cursor-pointer hover:underline" @click.prevent="changeID(item.id)">{{ showingID === item.id ? 'Less' : 'Read' }}</NuxtLink>  
+        <div>
+          <Icon v-show="showingID != item.id" name="material-symbols:fitbit-arrow-downward" size="1.4em"  @click.prevent="changeID(item.id)"/>
+          <Icon v-show="showingID === item.id" name="material-symbols:fitbit-arrow-upward" size="1.4em" @click.prevent="changeID(item.id)"/>
+        </div> 
       </div>
       <transition-group name="fade" mode="out-in">
         <p v-if="(item.id === showingID)" class="text-sm px-2 py-4 text-gray-400 leading-7">{{ item.description }}</p>
