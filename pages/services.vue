@@ -3,6 +3,7 @@
     <ServicesHero />
     <ServicesLabel />
     <Services />
+    <HomeContact />
   </div>
 </template>
 

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@formkit/auto-animate',
+    '@formkit/auto-animate/nuxt',
     'vue3-carousel-nuxt',
     'nuxt-icon',
     '@nuxtjs/device',
