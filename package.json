@@ -13,7 +13,6 @@
     "@formkit/auto-animate": "latest",
     "@nuxt/devtools": "latest",
     "@nuxtjs/device": "latest",
-    "@nuxtjs/google-fonts": "latest",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2",
     "nuxt-icon": "latest",
