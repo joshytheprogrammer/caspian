@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 gap-8 justify-between py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-24">
+  <div class="block lg:grid grid-cols-2 gap-8 justify-between py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-24">
     <div class="col-span-1">
       <div class="py-8">
         <h2 class="text-4xl md:text-6xl lg:text-8xl font-extrabold text-primary-950">
