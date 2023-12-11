@@ -1,6 +1,8 @@
 <template>
   <div>
     <ServicesHero />
+    <ServicesLabel />
+    <Services />
   </div>
 </template>
 
