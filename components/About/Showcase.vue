@@ -8,7 +8,7 @@
       <h3 class="text-xl md:text-2xl lg:text-3xl font-normal tracking-wider text-primary-900">Where Reliability Meets Speed - Our Logistics Promise
       </h3>
     </div>
-    <div class="block md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-12">
+    <div class="block md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-16">
       <figure class="col-span-1 mx-auto py-2 md:py-0" v-for="item in images">
         <img class="w-full h-full object-cover lg:hover:scale-105 transition-all ease-in-out duration-300" :src="item" alt="">
       </figure>
