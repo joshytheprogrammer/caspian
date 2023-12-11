@@ -5,8 +5,8 @@
       <div class="flex justify-between items-center px-2">
         <h3 class="py-4 text-xl font-medium ">{{ item.title }}</h3>
         <div>
-          <Icon v-show="showingID != item.id" name="material-symbols:fitbit-arrow-downward" size="1.4em"  @click.prevent="changeID(item.id)"/>
-          <Icon v-show="showingID === item.id" name="material-symbols:fitbit-arrow-upward" size="1.4em" @click.prevent="changeID(item.id)"/>
+          <Icon v-show="showingID != item.id" name="material-symbols:keyboard-arrow-down" size="1.4em"  @click.prevent="changeID(item.id)"/>
+          <Icon v-show="showingID === item.id" name="material-symbols:keyboard-arrow-up" size="1.4em" @click.prevent="changeID(item.id)"/>
         </div> 
       </div>
       <transition-group name="fade" mode="out-in">
