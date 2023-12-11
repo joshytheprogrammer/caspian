@@ -1,6 +1,6 @@
 <template>
   <div class="block mx-auto lg:grid lg:grid-cols-3 md:grid-cols-2 gap-6 px-4 sm:px-8 md:px-12 lg:px-28 py-24 transition-all">
-    <figure class="w-full h-fit shadow-md mr-6 mb-6 inline-block border-2 border-solid border-primary-900 rounded-md" v-for="item in grid" :key="item.id" ref="projects">
+    <figure class="w-full h-fit shadow-md mb-6 inline-block border border-solid border-primary-900 rounded-md" v-for="item in grid" :key="item.id" ref="projects">
       <img class="w-full rounded-t-md" :src="item.imgLink" :alt="'We delivered ' + item.title">
       <div class="flex justify-between items-center px-2">
         <h3 class="py-4 text-xl font-medium ">{{ item.title }}</h3>
