@@ -2,6 +2,7 @@
   <div>
     <AboutHero />
     <AboutWhy />
+    <AboutShowcase />
     <HomeContact />
   </div>
 </template>
