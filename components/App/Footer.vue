@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-16 flex flex-col md:flex-row items-start justify-between">
+  <div class="w-full bg-white py-8 px-4 sm:px-8 md:px-12 lg:px-28 lg:py-16 flex flex-col flex-wrap lg:flex-row items-start justify-between">
     <div class="max-w-md">
       <NuxtLink class="flex items-center pb-4" to="/">
         <img class="w-30 pr-4" src="/LOGO.png" alt="UACEF Logo">
@@ -27,7 +27,7 @@
         </li>
       </ul>
     </div>
-    <div class="flex flex-col justify-between sm:px-4">
+    <div class="flex flex-col justify-between">
       <h3 class="text-3xl font-semibold pb-4 text-primary-700">Useful Links</h3>
       <ul class="py-8">
         <li class="pb-8">
@@ -61,9 +61,9 @@
           <Icon class="pr-1 text-primary-700"  name="material-symbols:mail-rounded" size="1.25em" />
           <a href="mailto:info@caspianintegrated.com " class="pr-4">info@caspianintegrated.com </a>
         </li>
-        <li class="pb-8">
+        <li class="pb-8 flex">
           <Icon class="pr-1 text-primary-700"  name="material-symbols:location-on" size="1.25em" />
-          <span class="pr-4 w-80 block">17A Seinde Calisto Crescent, Off Charity Bus Stop, Oshodi / Apapa Expressway, Lagos.   </span>
+          <span class="pr-4 block">17A Seinde Calisto Crescent, <br> Off Charity Bus Stop, <br> Oshodi / Apapa Expressway, Lagos.   </span>
         </li>
       </ul>
     </div>
