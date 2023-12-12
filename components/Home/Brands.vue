@@ -5,7 +5,7 @@
         <Slide v-for="item in slide" :key="item">
           <div class="carousel__item text-white">
             <div class="">
-              <span class="brand text-xl md:text-4xl lg:text-8xl">{{ item }}</span>
+              <span class="brand text-xl md:text-4xl lg:text-6xl">{{ item }}</span>
             </div>
           </div>
         </Slide>
@@ -15,7 +15,7 @@
 </template>
 <!--  -->
 <script setup>
-const slide = ref(['Brand 1', 'Brand 2', 'Brand 3', 'Brand 4', 'Brand 5', 'Brand 6', 'Brand 7', 'Brand 8']);
+const slide = ref(['Nike', 'Google', 'W&G', 'Apple', 'Samsung', 'Nokia', 'Panasonic']);
 </script>
 
 <style lang="css" scoped>
