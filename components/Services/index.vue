@@ -4,7 +4,7 @@
       <img class="py-4 w-[640.15px] h-[640.15px]" :src="service.imgLink" loading="eager" :alt="'Service '+service.id">
       <div class="w-full py-8" v-auto-animate>
         <div ref="serviceContainer" class="px-4 py-2" v-for="item in service.items" :key="item.id">
-          <div class="flex justify-between py-8 border-b border-solid border-primary-700" @click="changeShowing(item.id)">
+          <div class="flex justify-between py-8 border-b border-solid border-primary-700 cursor-pointer" @click="changeShowing(item.id)">
             <span class="text-lg">{{ item.title }}</span>
             <Icon v-if="item.id != showing" name="material-symbols:add" size="1.4em" />
             <Icon v-else name="material-symbols:check-indeterminate-small" size="1.4em" />
