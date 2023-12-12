@@ -10,7 +10,7 @@
         </div> 
       </div>
       <transition-group name="fade" mode="out-in">
-        <p v-if="(item.id === showingID)" class="text-sm px-2 py-4 text-gray-400 leading-7">{{ item.description }}</p>
+        <p v-if="(item.id === showingID)" class="text-sm px-2 py-4 text-gray-600 leading-7">{{ item.description }}</p>
       </transition-group>
     </figure>
   </div>
