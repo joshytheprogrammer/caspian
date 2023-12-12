@@ -25,7 +25,7 @@
         </p>
       </div>
       <div>
-        <img width="440.15px" height="440.15px" :src="currentAbout.imgLink" loading="eager" alt="about">
+        <img class="w-[440.15px] h-[440.15px]" :src="currentAbout.imgLink" loading="eager" alt="about">
       </div>
     </div>
   </div>
