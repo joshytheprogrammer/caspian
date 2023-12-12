@@ -1,6 +1,6 @@
 <template>
   <div class="w-full p-4 sm:px-8 md:px-12 lg:px-28 bg-gradient-to-l from-primary-600 to-primary-950 text-white flex items-center justify-between">
-    <div class="text-sm hidden md:block">
+    <div class="text-sm hidden lg:block">
       <span class="pr-4">
         <Icon name="material-symbols:mail-rounded" size="1.25em" /> 
         <span class="pl-1">info@caspianintegrated.com</span>
