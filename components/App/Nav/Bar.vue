@@ -2,7 +2,7 @@
   <div class="w-full bg-white px-8 md:px-12 lg:px-28 py-8  text-neutral-800 flex items-center justify-between">
     <div class="w-fit" >
       <NuxtLink class="flex items-center bg-white cursor-pointer text-primary-700" @click.prevent="$router.push('/')" >
-        <!-- <img class="w-36 pr-4" src="/LOGO.png" alt="Caspian Logo"> -->
+        <img class="w-20 pr-4" src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1702373816/caspian/LOGO_iuelih.png" alt="Caspian Logo">
         <span class="text-4xl text-primary-700 font-bold">Caspian</span>
       </NuxtLink>
     </div>

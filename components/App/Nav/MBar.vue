@@ -3,7 +3,7 @@
     <div class="w-full items-center flex justify-between">
       <div class="w-fit">
         <NuxtLink class="flex items-center !no-underline" to="/">
-          <!-- <img class="w-20 pr-4" src="/LOGO.png" alt="Caspian Logo"> -->
+          <img class="w-16 pr-4" src="https://res.cloudinary.com/dsgvwxygr/image/upload/v1702373816/caspian/LOGO_iuelih.png" alt="Caspian Logo">
           <span class="text-2xl text-primary-900 font-semibold">Caspian</span>
         </NuxtLink>
       </div>
