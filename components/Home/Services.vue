@@ -13,7 +13,7 @@
       <h3 class="text-2xl font-normal tracking-wide text-primary-950">Delivering Possibilities, On Time</h3>
       <p class="text-sm leading-6 text-slate-500">At Caspian, we are more than just a logistics company - we are the architects of seamless supply chains, the navigators of global trade, and the enablers of business growth. </p>
 
-      <div class="flex flex-auto space-x-4 text-sm text-primary-900 no-underline">
+      <div class="flex flex-auto space-x-4 text-xs sm:text-sm text-primary-900 no-underline">
         <div class="space-y-3">
           <NuxtLink class="block" to="/services">
             <Icon name="material-symbols:add-rounded" size="1.5em" />
