@@ -16,7 +16,8 @@ export default defineNuxtConfig({
     'vue3-carousel-nuxt',
     'nuxt-icon',
     '@nuxtjs/device',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
+    '@pinia/nuxt'
   ],
   device: {
     refreshOnResize: true

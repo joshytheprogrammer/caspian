@@ -21,6 +21,7 @@
     "vue3-carousel-nuxt": "latest"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "@vueuse/motion": "^2.0.0",
     "vue-countup-v3": "^1.4.0"
   }

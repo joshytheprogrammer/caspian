@@ -45,9 +45,12 @@
         <li class="pb-8">
           <NuxtLink class="hover:underline hover:text-primary-700 font-medium" to="/contact">Contact</NuxtLink>
         </li>
-        <!-- <li class="pb-8">
-          <a href="https://admin.uacef.org/" class="hover:underline hover:text-primary-700 font-medium" >Admin</a>
-        </li> -->
+        <li class="pb-8">
+          <NuxtLink to="/track" class="cursor-pointer hover:underline hover:text-primary-700 font-medium" >Track Order</NuxtLink>
+        </li>
+        <li class="pb-8">
+          <a href="https://admin.caspianintegrated.com" class="cursor-pointer hover:underline hover:text-primary-700 font-medium" >Admin Login</a>
+        </li>
       </ul>
     </div>
     <div class="flex flex-col justify-between">
